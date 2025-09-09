@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Service.Template.Domain.Interfaces.Infrastructure;
-using Service.Template.Infrastructure.Persistence;
+using Telegram.Gateway.Domain.Interfaces.Infrastructure;
+using Telegram.Gateway.Infrastructure.Persistence;
 
-namespace Service.Template.Infrastructure;
+namespace Telegram.Gateway.Infrastructure;
 
 public static class DependencyInjection
 {

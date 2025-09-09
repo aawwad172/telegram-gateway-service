@@ -1,10 +1,10 @@
 ﻿using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Options;
-using Service.Template.Domain.Interfaces.Infrastructure;
-using Service.Template.Domain.Settings;
+using Telegram.Gateway.Domain.Interfaces.Infrastructure;
+using Telegram.Gateway.Domain.Settings;
 using System.Data;
 
-namespace Service.Template.Infrastructure.Persistence;
+namespace Telegram.Gateway.Infrastructure.Persistence;
 
 public class DbConnectionFactory(IOptionsMonitor<DbSettings> options) : IDbConnectionFactory
 {

@@ -1,6 +1,6 @@
 ﻿using System.Data;
 
-namespace Service.Template.Domain.Interfaces.Infrastructure;
+namespace Telegram.Gateway.Domain.Interfaces.Infrastructure;
 
 public interface IDbConnectionFactory
 {

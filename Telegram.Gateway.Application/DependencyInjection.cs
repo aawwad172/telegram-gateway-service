@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Service.Template.Application.Utilities;
+using Telegram.Gateway.Application.Utilities;
 
-namespace Service.Template.Application;
+namespace Telegram.Gateway.Application;
 
 public static class DependencyInjection
 {

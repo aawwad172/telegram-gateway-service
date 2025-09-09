@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace Service.Template.Domain;
+namespace Telegram.Gateway.Domain;
 
 public static class DependencyInjection
 {

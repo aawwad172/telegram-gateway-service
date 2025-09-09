@@ -1,4 +1,4 @@
-﻿namespace Service.Template.Domain.Settings;
+﻿namespace Telegram.Gateway.Domain.Settings;
 
 public class DbSettings
 {

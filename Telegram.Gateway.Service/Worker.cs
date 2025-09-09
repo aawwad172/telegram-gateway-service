@@ -1,6 +1,6 @@
 using A2ASerilog;
 
-namespace Service.Template.Service;
+namespace Telegram.Gateway.Service;
 
 public class Worker : BackgroundService
 {

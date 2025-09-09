@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>dotnet-Service.Template.Service-cf470956-cc54-488b-8c0a-d508ce191481</UserSecretsId>
+    <UserSecretsId>dotnet-Telegram.Gateway.Service-cf470956-cc54-488b-8c0a-d508ce191481</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,9 +12,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Service.Template.Application\Service.Template.Application.csproj" />
-    <ProjectReference Include="..\Service.Template.Domain\Service.Template.Domain.csproj" />
-    <ProjectReference Include="..\Service.Template.Infrastructure\Service.Template.Infrastructure.csproj" />
+    <ProjectReference Include="..\Telegram.Gateway.Application\Telegram.Gateway.Application.csproj" />
+    <ProjectReference Include="..\Telegram.Gateway.Domain\Telegram.Gateway.Domain.csproj" />
+    <ProjectReference Include="..\Telegram.Gateway.Infrastructure\Telegram.Gateway.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

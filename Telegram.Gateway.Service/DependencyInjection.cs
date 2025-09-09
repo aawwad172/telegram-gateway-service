@@ -1,8 +1,7 @@
 ﻿using A2ASerilog;
-using Microsoft.Extensions.Configuration;
-using Service.Template.Domain.Settings;
+using Telegram.Gateway.Domain.Settings;
 
-namespace Service.Template.Service;
+namespace Telegram.Gateway.Service;
 
 public static class DependencyInjection
 {

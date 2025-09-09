@@ -1,7 +1,7 @@
-using Service.Template.Application;
-using Service.Template.Domain;
-using Service.Template.Infrastructure;
-using Service.Template.Service;
+using Telegram.Gateway.Application;
+using Telegram.Gateway.Domain;
+using Telegram.Gateway.Infrastructure;
+using Telegram.Gateway.Service;
 
 HostApplicationBuilder builder = Host.CreateApplicationBuilder(args);
 builder.Services.AddHostedService<Worker>();

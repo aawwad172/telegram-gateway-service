@@ -13,8 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Service.Template.Application\Service.Template.Application.csproj" />
-    <ProjectReference Include="..\Service.Template.Domain\Service.Template.Domain.csproj" />
+    <ProjectReference Include="..\Telegram.Gateway.Application\Telegram.Gateway.Application.csproj" />
+    <ProjectReference Include="..\Telegram.Gateway.Domain\Telegram.Gateway.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>

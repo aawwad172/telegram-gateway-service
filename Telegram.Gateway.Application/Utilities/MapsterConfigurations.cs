@@ -1,6 +1,6 @@
 using Mapster;
 
-namespace Service.Template.Application.Utilities;
+namespace Telegram.Gateway.Application.Utilities;
 
 public class MapsterConfigurations
 {

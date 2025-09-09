@@ -1,4 +1,4 @@
-﻿namespace Service.Template.Domain.Exceptions;
+﻿namespace Telegram.Gateway.Domain.Exceptions;
 
 public class NotFoundException : Exception
 {
